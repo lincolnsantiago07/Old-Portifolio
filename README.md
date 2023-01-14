@@ -5,7 +5,7 @@ Estou desenvolvendo um site com o tema cyberpunk para mostrar todos os meus proj
 
 - ✔️ Colocar um conteúdo principal temático;
 - ❌ Colocar uma section de skills;
-- ❌ Colocar uma section para contatos;
+- ❌ Colocar uma section para contato;
 
 
 ## 👩‍💻 Future Features:
