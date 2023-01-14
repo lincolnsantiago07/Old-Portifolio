@@ -10,8 +10,8 @@ Estou desenvolvendo um site com o tema cyberpunk para mostrar todos os meus proj
 
 ## 👩‍💻 Future Features:
 
-- 1/2 ✔️ Colocar efeitos baseado no tema cyberpunk em quase toda a página;
-- 1/4 ✔️ Usar JS para embelezar o site;
+- 1/2 🕐 Colocar efeitos baseado no tema cyberpunk em quase toda a página;
+- 1/4 🕐 Usar JS para embelezar o site;
 - 0/3 ❌ Adicionar um botão ou algo parecido para trocar a linguagem do site (Português, inglês, e Francês);
 
 ## 🕐 Updates:
