@@ -1,0 +1,350 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
+@font-face {
+    font-family: 'Cod';
+    src: url('Fonts/Call\ of\ Ops\ Duty.otf') format('opentype');
+
+}
+@font-face {
+    font-family: 'Mine';
+    src: url('Fonts/Minecraft.ttf') format('opentype');
+
+}
+@font-face {
+    font-family: 'Valorant';
+    src: url('Fonts/Valorant\ Font.ttf') format('opentype');
+
+}
+@font-face {
+    font-family: 'Cyberpunk';
+    src: url('Fonts/Cyberpunk.ttf') format('opentype');
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+/* #050A0E, #FCEE09, #FF003C, #00F0FF, #FAFAFA*/
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Mine', 'Roboto Mono',  sans-serif, system-ui;
+}
+
+a {
+    text-decoration: none;
+    cursor: pointer;
+}
+
+header{
+    background-image: url('imgs/HeaderBG.png');
+    background-size: 100%;
+    padding: 4px 0px 4px;
+    box-shadow: 0 1px 10px 0 #0c1038;
+    box-sizing: border-box;
+}
+
+nav{
+    display: flex;
+    justify-content: center;
+}
+
+nav, .header-title{
+    font-size: 16px;
+    color: #050A0E;
+    list-style-type: none;
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-family: 'Roboto Mono';
+}
+
+.animate-text-container{
+    height: 100%;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+  }
+.animate-text{
+    top: 100px;
+    position: absolute;
+    font-weight: 100;
+    letter-spacing: 2px;
+    font-size: 25px;
+    font-family: 'Mine';
+    color: #FAFAFA;
+}
+  
+/*possivelmente parallax */
+
+/*Conteudo principal*/
+
+.Main-Container{
+    background: rgba(0, 0, 0, 0.6) url('imgs/WallpaperDog-5502359_auto_x2.png');
+    background-position: center;
+    background-blend-mode: darken;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-bottom: 30px;
+}
+
+
+.main-content{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 140px;
+}
+
+/* Left content */
+
+.line{
+    margin-bottom: 20px;
+    border-bottom: 2px solid #FCEE09;
+    width: 100%
+}
+
+.line-name{
+    text-align: center;
+    border-bottom: 2px solid #FCEE09;
+    width: 50%
+}
+
+.container-self-image{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.image{
+    border-radius: 15px;
+    width: 500px;
+    height: 500px;
+    border: 2px solid rgb(190, 240, 8);
+}
+
+h1, .glitch{
+    margin-bottom: 13px;
+    text-align: center;
+    font-size: 25px;
+    letter-spacing: 6px;
+    color: #FCEE09;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-family: 'Cyberpunk';
+}
+
+/* glitch effect */
+
+.glitch {
+    animation: glitch 10s 5s infinite;
+}
+  
+.glitch::before {
+    animation: noise-1 3s linear infinite alternate-reverse, glitch 5s 5.05s infinite;
+}
+  
+.glitch::after {
+    position: absolute;
+    overflow: hidden;
+    top: 0;
+    animation: noise-2 3s linear infinite alternate-reverse, glitch 5s 5s infinite;
+}
+
+.subtitle-main{
+    margin-top: 20px;
+    font-size: 15px;
+}
+
+.style-word-subtitle{
+    color: #FCEE09;
+}
+  
+/* Right content */
+
+.container-content{
+    padding-right: 70px;
+    width: 24%;
+    height: 100%;
+}
+
+h2 {
+    padding-bottom: 20px;
+    font-size: 45px;
+    letter-spacing: 5px;
+    color: #FAFAFA;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-family: 'Mine';
+}
+
+.main-text, .style-word, p{
+    letter-spacing: 2px;
+    font-size: 18px;
+    text-align: justify;
+    color: #FAFAFA;
+    line-height: 30px;
+    font-weight: normal;
+    font-family: 'Mine';
+}
+
+.style-word{
+    color: #FCEE09;
+}
+
+/* Button */
+
+.button-container{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.button, .button:after{
+    width: 350px;
+    height: 80px;
+    font-size: 36px;
+    font-family: 'Mine', cursive;
+    background: linear-gradient(45deg, transparent 5%, #FF003C 5%);
+    border: 0;
+    color: #FAFAFA;
+    letter-spacing: 3px;
+    line-height: 88px;
+    box-shadow: 3px 0px 0px #00F0FF;
+    outline: transparent;
+    position: relative;
+    cursor: pointer;
+}
+
+.button::after{
+    --slice-0: inset(50% 50% 50% 50%);
+    --slice-1: inset(80% -6px 0 0);
+    --slice-2: inset(50% -6px 30% 0);
+    --slice-3: inset(10% -6px 85% 0);
+    --slice-4: inset(40% -6px 43% 0);
+    --slice-5: inset(80% -6px 5% 0);
+
+    content: "Work With Me!";
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: linear-gradient(45deg, transparent 3%, #00F0FF 3%, #00F0FF 5%, #FF003C 5%);
+    text-shadow: -3px -3px 0px #FCEE09,
+                  3px 3px 0px #00F0FF;
+    clip-path: var(--slice-0);
+}
+
+.button:hover::after{
+    animation: 1s glitch-button;
+    animation-timing-function: steps(2, end);
+}
+
+/* Sub Contant */
+
+.project-Container{
+    padding-top: 40px;
+    background-color: #000;
+}
+
+.header-project::after{
+    background: url(https://www.cyberpunk.net/build/images/home/razor-top-black-1886097f.svg) repeat-x top;
+    bottom: -1px;
+    content: "";
+    height: 50px;
+    left: 0;
+    position: absolute;
+    right: 0;
+}
+
+h3 {
+    text-align: center;
+    padding-top: 40px;
+    font-size: 45px;
+    letter-spacing: 5px;
+    color: #FAFAFA;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-family: 'Mine';
+}
+
+/* Scrollbar */
+
+body::-webkit-scrollbar {
+    width: 12px;               /* width of the entire scrollbar */
+}
+
+body::-webkit-scrollbar-thumb {
+    background-color: #00F0FF;    /* color of the scroll thumb */
+
+}
+ 
+@keyframes glitch {
+    1%{
+        transform: rotateX(10deg) skewX(90deg);
+    }
+    2%{
+        transform: rotateX(0deg) skewX(0deg);
+    }
+}
+
+@keyframes fudge {
+    from {
+      transform: translate(0px, 0px);
+    }
+    to {
+      transform: translate(0px, 2%);
+    }
+}
+
+@keyframes glitch-button{
+   0%{
+    clip-path: var(--slice-1);
+    transform: translate(-20px, -10px);
+   } 
+   10%{
+    clip-path: var(--slice-3);
+    transform: translate(10px, 10px);
+   }
+   20%{
+    clip-path: var(--slice-1);
+    transform: translate(-10px, -10px);
+   }
+   30%{
+    clip-path: var(--slice-3);
+    transform: translate(0px, 5px);
+   }
+   40%{
+    clip-path: var(--slice-2);
+    transform: translate(-5px, 0px);
+   }
+   50%{
+    clip-path: var(--slice-3);
+    transform: translate(5px, 0px);
+   }
+   60%{
+    clip-path: var(--slice-4);
+    transform: translate(5px, 10px);
+   }
+   70%{
+    clip-path: var(--slice-2);
+    transform: translate(-10px, 10px);
+   }
+   80%{
+    clip-path: var(--slice-5);
+    transform: translate(20px, -10px);
+   }
+   90%{
+    clip-path: var(--slice-1);
+    transform: translate(-10px, -0px);
+   }
+   100%{
+    clip-path: var(--slice-1);
+    transform: translate(0);
+   }
+}
+  
