@@ -255,7 +255,7 @@ h2 {
     background: url(assets/Main-Header-content.svg) repeat-x top;
     bottom: -1px;
     content: "";
-    height: 47px;
+    height: 170px;
     left: 0;
     position: absolute;
     right: 0;
@@ -266,7 +266,18 @@ h3 {
     padding-top: 40px;
     font-size: 45px;
     letter-spacing: 5px;
-    color: #FAFAFA;
+    color: #fafafa;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-family: 'Mine';
+}
+
+h4 {
+    text-align: center;
+    padding-bottom: 20px;
+    font-size: 25px;
+    letter-spacing: 5px;
+    color: #fafafa;
     text-transform: uppercase;
     font-weight: 500;
     font-family: 'Mine';
@@ -279,10 +290,15 @@ h3 {
     padding-top: 40px;
 }
 
+.right-skills-content{
+    width: 20%;
+    height: 50%;
+}
 
-
-
-
+.Status{
+    display: flex;
+    justify-content: space-between;
+}
 
 
 
