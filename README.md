@@ -24,8 +24,8 @@ Estou desenvolvendo um site com o tema cyberpunk para mostrar todos os meus proj
     
 15/01/23: <br>
 
-- 1.01: Section "SKills" has been created;
-- 1.02: Header image of section "Skills" has been fixed;
+- 1.03: Section "SKills" has been created;
+- 1.04: Header image of section "Skills" has been fixed;
 
   
   
