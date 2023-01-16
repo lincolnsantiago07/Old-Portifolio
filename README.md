@@ -1,6 +1,9 @@
 # 💻 Bem vindo ao meu Portifólio :)
 Estou desenvolvendo um site com o tema cyberpunk para mostrar todos os meus projetos, incluido os da faculdade 🤓
 
+.Site funcionando melhor no Google;
+.Quando finalizado, adaptarei para o OperaGX
+
 ## 📈  Metas:
 
 - ✔️ Colocar um conteúdo principal temático;
