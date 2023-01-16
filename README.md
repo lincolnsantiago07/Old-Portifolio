@@ -2,7 +2,7 @@
 Estou desenvolvendo um site com o tema cyberpunk para mostrar todos os meus projetos, incluido os da faculdade 🤓
 
 .Site funcionando melhor no Google; <br>
-.Quando finalizado, adaptarei para o OperaGX
+.Quando finalizado, adaptarei para o OperaGX.
 
 ## 📈  Metas:
 
