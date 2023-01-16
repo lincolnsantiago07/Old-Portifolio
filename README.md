@@ -4,7 +4,7 @@ Estou desenvolvendo um site com o tema cyberpunk para mostrar todos os meus proj
 ## 📈  Metas:
 
 - ✔️ Colocar um conteúdo principal temático;
-- ❌ Colocar uma section de skills;
+- 🕐 Colocar uma section de Skills;
 - ❌ Colocar uma section para contato;
 
 
@@ -24,9 +24,15 @@ Estou desenvolvendo um site com o tema cyberpunk para mostrar todos os meus proj
     
 15/01/23: <br>
 
-- 1.03: Section "SKills" has been created;
-- 1.04: Header image of section "Skills" has been fixed;
+- 2.01: Seção de Skills adicionada;
+- 2.02: Foto com Header adicionada;
 
+    
+16/01/23: <br>
+
+- 2.03: Ciração da sessão direita de Linguas;
+- 2.04: Barra de progressão em Languages;
+- 2.04: Bug da imagem do Header arrumada
   
   
 
