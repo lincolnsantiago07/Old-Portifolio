@@ -252,10 +252,10 @@ h2 {
 }
 
 .header-project::after{
-    background: url(https://www.cyberpunk.net/build/images/home/razor-top-black-1886097f.svg) repeat-x top;
+    background: url(assets/Main-Header-content.svg) repeat-x top;
     bottom: -1px;
     content: "";
-    height: 50px;
+    height: 47px;
     left: 0;
     position: absolute;
     right: 0;
@@ -271,6 +271,25 @@ h3 {
     font-weight: 500;
     font-family: 'Mine';
 }
+
+.container-Skills{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 40px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
 
 /* Scrollbar */
 
